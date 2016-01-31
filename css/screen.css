@@ -78,7 +78,7 @@ a.btn:hover
 header
 {
     height: 430px;
-    background: #cf0004 url(../images/banner_1200.jpg) no-repeat center bottom; position: relative;
+    background: #023C64 url(../images/banner_1200.jpg) no-repeat center bottom; position: relative;
     /* background color, image, repeat properties, positioning properties*/
     /* 4 different graphics size
     1200 x 430
@@ -234,7 +234,7 @@ section.how-to aside .content p
 section.how-to aside .content a
 {
     display: inline-block;
-    color: #6699ff;
+    color: #023C64;
     font-weight: 700;
 }
 
@@ -306,7 +306,7 @@ nav ul
     padding: 0px;
 }
 
-nav ul li:hover { background-color: #2b0306; }
+nav ul li:hover { background-color: #000033; }
 nav ul li:hover > ul
 {
     display: block;
@@ -329,7 +329,7 @@ nav ul li a:visited
 }
 nav ul li a:hover
 {
-    background-color: #6699ff;
+    background-color: #02548E;
 }
 
 /* implemented after top-level */
