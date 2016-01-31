@@ -97,7 +97,7 @@ header a.logo
     width: 160px;
     height: 66px;
 
-    background: url(../images/logo.svg) no-repeat 0 0; background-size:contain;
+    background: /*url(../images/logo.svg) */no-repeat 0 0; background-size:contain;
     top: 15px; left: 20px;
 }
 header a.logo span
@@ -107,9 +107,12 @@ header a.logo span
 header div.hero
 {
     position: absolute;
-    width: 42%;
-    top: 130px;
-    left: 55%;
+    /*width: 42%; */
+    width: 100%;
+    /*top: 130px;*/
+    top: 150px;
+    /*left: 55%; */
+    left: 18.5%;
 }
 header div.hero h1 /* over write previous h1 */
 {
@@ -183,7 +186,7 @@ section.main aside .content.tools
 /* Section - Atmosphere */
 section.atmosphere
 {
-    background-color: #cc6633;
+    background-color: #006666;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
@@ -231,7 +234,7 @@ section.how-to aside .content p
 section.how-to aside .content a
 {
     display: inline-block;
-    color: #cc6633;
+    color: #6699ff;
     font-weight: 700;
 }
 
@@ -326,7 +329,7 @@ nav ul li a:visited
 }
 nav ul li a:hover
 {
-    background-color: #6d0911;
+    background-color: #6699ff;
 }
 
 /* implemented after top-level */
@@ -334,7 +337,7 @@ nav ul ul
 {
     position: absolute;
     top: 100%;
-    background-color: #2b0306;
+    background-color: #6699ff;
     display: none;
 }
 nav ul ul li
@@ -436,7 +439,8 @@ footer a:hover
         font-size: 2.4em;
     }
     /* Header */
-    header div.hero { left: 56%; }
+   /* header div.hero { left: 56%; } */
+    header div.hero { left: 18.5%; }
     header div.hero h1{ margin-bottom: 20px; }
 
     /* Section - Atmosphere */
@@ -450,7 +454,8 @@ footer a:hover
     }
     /* Header */
     header { height: 300px; background-image: url(../images/banner_825.jpg); }
-    header div.hero { top: 120px; left: 48%; }
+    /*header div.hero { top: 120px; left: 48%; }*/
+    header div.hero { top: 120px; left: 28%; }
 
     /* Section - Atmosphere */
     section.atmosphere article { padding-left: 325px; background-size: 300px auto; }
@@ -468,7 +473,8 @@ footer a:hover
 
     /* Header */
     header a.logo { width: 145px; height: 60px; } /* making logo smaller */
-    header div.hero { top:140px; left: 48%; }
+  /*  header div.hero { top:140px; left: 48%; } */
+    header div.hero { top:140px; left: 6%; }
 
     /* Section - Main */
     section.main { margin-top: 10px; margin-bottom: 10px; }
@@ -548,7 +554,7 @@ footer a:hover
 
     /* Nav */
     /*nav {  /* position: static;   width: auto;*/  /*padding: 50px 15px; background-color: #4b0a0c; } */
-    nav { padding: 50px 15px 20px 15px; background-color: #4b0a0c; height: 0px; overflow: hidden; }
+    nav { padding: 50px 15px 20px 15px; background-color: #000000; height: 0px; overflow: hidden; }
 
     nav a.mobile_menu { display: block; }
     /* Nav - for 625px */
@@ -612,7 +618,7 @@ footer a:hover
     {
         width: 126px;
         height: 26px;
-        background-image: /*rgba(0,0,0,.65)*/ url(../images/logo_small.svg) /* no-repeat center center */;
+        background-image: /*rgba(0,0,0,.65)*/ /*url(../images/logo_small.svg) /* no-repeat center center */;
         top: 15px;
         /* background-size: 126px 17px; */
     }
