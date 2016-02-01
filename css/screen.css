@@ -136,12 +136,13 @@ section::after
 }
 
 /* Section- Main */
-
+/* back2 */
 section.main
 {
-    margin-top: 20px;
-    margin-bottom: 30px;
+   /* margin-top: 20px; */
+   /* margin-bottom: 30px; */
     padding: 0;
+    background-color: #0477C8;
     /* for checking */
   /*  background-color: #ccc; */
 }
@@ -158,10 +159,11 @@ section.main .content
     background: no-repeat center top;
     background-size: 75px 75px;
     padding-top: 85px;
+    color: #fff;
 }
 section.main aside h3 a
 {
-    color:#000;
+    color:#E6F4FE;
     text-decoration: none;
 }
 section.main aside h3 a:hover
@@ -184,9 +186,10 @@ section.main aside .content.tools
 }
 
 /* Section - Atmosphere */
+/* back3 */
 section.atmosphere
 {
-    background-color: #006666;
+    background-color: #1E9FFA; /* 6699ff */
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
@@ -196,13 +199,15 @@ section.atmosphere article
     padding: 0 20px 0 515px; /* push content to the right */
     background: url(../images/photo_lounge.jpg) no-repeat 0 5px; /* adding image to the left*/
     min-height: 220px;
+
 }
 
 /* how-to */
 
+/* back4 */
 section.how-to
 {
-    background-color: #eee9d9;
+    background-color: #68BFFC; /* 024A7C eee9d9*/
     position: relative;
 }
 section.how-to aside
@@ -226,15 +231,18 @@ section.how-to aside .content img
 section.how-to aside .content h4
 {
     margin-bottom: 0;
+   /* color: #E6F4FE; */
+    color: #fff;
 }
 section.how-to aside .content p
 {
     margin-bottom: .5em;
+    color: #fff;
 }
 section.how-to aside .content a
 {
     display: inline-block;
-    color: #023C64;
+    color: #fff;
     font-weight: 700;
 }
 
@@ -455,7 +463,7 @@ footer a:hover
     /* Header */
     header { height: 300px; background-image: url(../images/banner_825.jpg); }
     /*header div.hero { top: 120px; left: 48%; }*/
-    header div.hero { top: 120px; left: 28%; }
+  /*  header div.hero { /*top: 120px; left: 28%;  } */
 
     /* Section - Atmosphere */
     section.atmosphere article { padding-left: 325px; background-size: 300px auto; }
@@ -477,7 +485,7 @@ footer a:hover
     header div.hero { top:140px; left: 6%; }
 
     /* Section - Main */
-    section.main { margin-top: 10px; margin-bottom: 10px; }
+    section.main { /*margin-top: 10px; margin-bottom: 10px; */ }
     section.main aside div.content { background-size: 55px 55px; padding-top: 60px; }
 
     /* Section - How To */
@@ -511,11 +519,13 @@ footer a:hover
     header div.hero { width: 300px; top: 85px; left: 130px; }
     header div.hero h1 { margin-bottom: 10px; } /* fix get advice box */
     /* Section - Main */
+    section.main { margin: -8px ; } /* fix the white space issue */
     section.main aside {  width: 100%; float: none; text-align: left; }
 
     section.main aside div.content
     {
         margin: 8px 20px 8px 0;
+        /*padding: 5px 0px 10px 85px; */
         padding: 5px 0px 10px 85px;
         background-size: 50px 50px;
         background-position: 20px 5px;
@@ -623,6 +633,7 @@ footer a:hover
         /* background-size: 126px 17px; */
     }
 
+
     header div.hero { width: 100%; left: 0px; top: 58px; text-align: center; }
     header div.hero h1 { font-size: 1em; margin-bottom: 10px; }
     header div.hero a.btn { padding: 2px 30px; font-size: .8em; }
@@ -632,7 +643,6 @@ footer a:hover
     section.how-to aside div.content { padding: 140px 20px 20px 0px; }
     section.how-to aside div.content img { width: auto; height: 100px; top: 30px; }
     section.how-to blockquote { margin: 10px 40px 0 20px; }
-
 }
 
 
